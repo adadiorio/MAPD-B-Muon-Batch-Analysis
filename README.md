@@ -65,7 +65,7 @@ Within the DAQ system, a series of Field Programmable Gate Arrays (FPGAs) perfor
 Each digitized signal is commonly referred to as a "hit" representing an ionization event within the detector.
 
 <div style="text-align: center;">
-    <img src="muon-cell-schema.png" alt="Muon cell schema" width="500">
+    <img src="figures/muon-cell-schema.png" alt="Muon cell schema" width="500">
 </div>
 
 If the time of passage of the muon (usually referred to as $t_0$) is known, the TDC of a hit can be translated to a position inside the cell thanks to the constant $v_{drift}$, i.e:
